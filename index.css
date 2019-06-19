@@ -1,0 +1,37 @@
+body {
+  background: #50CBBA;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.convert-but {
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  box-shadow: 3px 3px 0px rgba(0, 0, 0, 0.5);
+  height: 30px;
+  margin: 5px 0 5px 0;
+  width: 10%;
+  min-width: 65px;
+}
+
+.convert-but:hover {
+  background: rgb(200, 200, 200);
+}
+
+.input-box, .output-box {
+  min-height: 30px;
+  min-width: 70px;
+  font-family: arial;
+  border-radius: 5px;
+  box-shadow: inset 2px 2px 0 rgba(0, 0, 0, 0.2);
+  padding: 5px;
+  height: 100px;
+  width: 40%;
+  display: inline-block;
+}
